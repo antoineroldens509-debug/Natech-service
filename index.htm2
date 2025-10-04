@@ -1,0 +1,84 @@
+`html
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Natech Service</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #005f73; color: white; padding: 20px; text-align: center; }
+    nav { background: #0a9396; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    section { padding: 40px; }
+    .services { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .service { background: #94d2bd; padding: 20px; border-radius: 8px; }
+    footer { background: #005f73; color: white; text-align: center; padding: 20px; }
+    .contact-form input, .contact-form textarea { width: 100%; padding: 10px; margin: 10px 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Natech Service</h1>
+[04/10 à 03:33] Chat GPT: <p>Sèvis finansye dijital pou Ayiti ak dyaspora</p>
+  </header>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#services">Sèvis</a>
+    <a href="#acheter">Achte</a>
+    <a href="#contact">Kontakte</a>
+  </nav>
+
+  <section id="accueil">
+    <h2>Byenveni sou Natech Service</h2>
+    <p>Nou ofri sèvis tankou kreye kont PayPal, echanj lajan, kat vityèl, recharge kont Wise elatriye.</p>
+  </section>
+
+  <section id="services">
+    <h2>Sèvis Nou Yo</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Kreye kont PayPal verifye</h3>
+        <p>Nou ede w kreye ak verifye kont PayPal pou peyi Ayiti ak dyaspora.</p>
+      </div>
+      <div class="service">
+        <h3>Echanj (PayPal ↔ MonCash)</h3>
+        <p>Nou fè transfè lajan ant PayPal ak MonCash avèk tarè konpetitif.</p>
+      </div>
+      <div class="service">
+        <h3>Kat Visa vityèl (Wise)</h3>
+        <p>Nou kreye kat Visa vityèl via Wise pou ou itilize entènasyonalman.</p>
+      </div>
+      <div class="service">
+        <h3>Recharge Wise pa MonCash / Natcash</h3>
+        <p>Nou pèmèt recharge kont Wise ou via MonCash oswa Natcash san konplikasyon.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="acheter">
+    <h2>Achte Sèvis</h2>
+[04/10 à 03:33] Chat GPT: <p>Pou kòmande, kontakte nou sou nimewo oswa imel anba a. Nou pral voye w etap yo.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Kontakte Nou</h2>
+    <p>Email: antoineroldens509@gmail.com</p>
+    <p>Telefòn: (+509) 4131‑4602 / +1 (829) 265‑1208</p>
+    <p>Adrès: Gonaïves, 4ème Section, Poteau</p>
+
+    <div class="contact-form">
+      <input type="text" placeholder="Non ou" />
+      <input type="email" placeholder="Email ou" />
+      <textarea placeholder="Mesaj ou" rows="5"></textarea>
+      <button type="submit">Voye</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Natech Service. Tout dwa rezève.</p>
+  </footer>
+</body>
+</html>
+```
